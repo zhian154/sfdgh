@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/iconfont.css " rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            height: 0;
+        }
+        html body .iconfont{
+            font-size: 50px;
+        }
+        .top{
+            height: 50px;
+            /*border: black solid 1px;*/
+            font-size: 30px;
+            line-height: 50px;
+            background-color: #e4e4e4;
+        }
+        .time{
+            height: 50px;
+            float: left;
+        }
+        #wrap .top .icons{
+            width: 240px;
+            height: 50px;
+            float: right;
+        }
+        .titles{
+            height: 400px;
+            /*border: black solid 1px;*/
+            position: relative;
+        }
+
+        #wrap .titles .img {
+            /*width: 120px;*/
+            height: 70px;
+            float: right;
+            line-height: 70px;
+            padding-top: 70px;
+            position: relative;
+            top: 0px;
+            right: -210px;
+        }
+        #wrap ul {
+            list-style: none;
+            height:330px;
+            width: 940px;
+            overflow: scroll;
+            margin: auto;
+        }
+        #wrap ul li {
+            height: 130px;
+        }
+        .b{
+            height: 130px;
+            /*border-bottom: #000000 1px solid;*/
+            display: flex;
+        }
+        .b .b1{
+            width:150px;
+            height: 150px;
+            font-size: 50px;
+            text-align: center;/*水平居中*/
+        }
+        .b .b1 .b2{
+            font-size: 50px;
+            line-height: 150px;
+        }
+        .b3{
+            font-size: 50px;
+            line-height: 150px;
+            margin-left: 5px;
+            width: 150px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: center;
+        }
+        #wrap .manager{
+            display: flex;
+            height: 200px;
+            /*border: 1px #000000 solid;*/
+           margin-top: 30px;
+        }
+        #wrap .manager{
+            display: flex;
+            height: 200px;
+            /*border: solid 1px #fff;*/
+        }
+        #wrap .manager div{
+            flex: 1;
+            /*border: solid 1px #fff;*/
+        }
+        #wrap .manager .iconfont{
+            font-size: 100px;
+            margin-left: 50px;
+        }
+        #wrap .manager .text1{
+            /*text-align: center;*/
+            font-size: 50px;
+            margin-left: 50px;
+        }
+        #wrap .b6{
+            /*border: red 1px solid;*/
+            height: 823px;
+            margin-top: 6px;
+        }
+        a  {
+            text-decoration: none;
+        }
+        #wrap .top .titles .f{
+            height: 210px;
+            width: 940px;
+            /*border: firebrick 1px solid;*/
+            margin-top: 140px;
+        }
+        #wrap .top .titles .f li{
+            height: 150px;
+            /*border: darkblue 1px solid;*/
+        }
+        .titles .f li div{
+            height: 150px;
+            /*border: red 1px solid;*/
+            float: left;
+        }
+        .titles .f li div .f1{
+            height: 150px;
+            width: 150px;
+            /*border: blue 1px solid;*/
+            float: left;
+        }
+        .titles .f li div .f2{
+            height: 150px;
+            width: 600px;
+            /*border: yellow 1px solid;*/
+            float: left;
+        }
+        .titles .f li div .f3{
+            height: 150px;
+            width: 180px;
+            /*border: green 1px solid;*/
+            float: left;
+        }
+        .titles .f li div .f1 .g1{
+            height: 130px;
+            width: 130px;
+            /*border: green 1px solid;*/
+            margin: 10px;
+        }
+        .titles .f li div .f2 .g2{
+            height: 70px;
+            width: 600px;
+        }
+        .titles .f li div .f2 .g3{
+            height: 70px;
+            width: 585px;
+            margin-top: 3px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        .titles .f li div .f3 .g4{
+            height: 70px;
+            width: 120px;
+            /*border: green 1px solid;*/
+            margin-top: 73px;
+            margin-left: 40px;
+        }
+        .titles .f li div .f3 .g5{
+            height: 50px;
+            width: 50px;
+            /*border: red 1px solid;*/
+            line-height: 50px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .titles .f li div .f3 .g6{
+            height: 50px;
+            width: 50px;
+            /*border: red 1px solid;*/
+            line-height: 50px;
+            margin-left: 60px;
+            margin-top: -52px;
+        }
+        .h1{
+            height: 50px;
+            width: 50px;
+            /*border: red 1px solid;*/
+            position: absolute;
+            top: 540px;
+            left: 890px;
+        }
+        .h2{
+            height: 50px;
+            width: 50px;
+            /*border: red 1px solid;*/
+            position: absolute;
+            top: 700px;
+            left: 890px;
+        }
+        .h3{
+            height: 50px;
+            width: 50px;
+            /*border: red 1px solid;*/
+            position: absolute;
+            top: 820px;
+            left: 890px;
+        }
+        .h4{
+            height: 50px;
+            width: 50px;
+            /*border: red 1px solid;*/
+            position: absolute;
+            top: 960px;
+            left: 890px;
+        }
+        .h5{
+            height: 50px;
+            width: 50px;
+            /*border: red 1px solid;*/
+            position: absolute;
+            top: 1090px;
+            left: 890px;
+        }
+        .h6{
+            height: 50px;
+            width: 50px;
+            /*border: red 1px solid;*/
+            position: absolute;
+            top: 1240px;
+            left: 890px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div class="top">
+        <div class="time">15: 37</div>
+        <div class="icons">
+            <span class="iconfont ">&#xeb07;</span>
+            <span class="iconfont ">&#xeb07;</span>
+            <span class="iconfont ">&#xe61e;</span>
+            <span class="iconfont ">&#xe695;</span>
+        </div>
+        <div class="titles">
+            <div class="img">
+                <span class="iconfont ">&#xe62e;</span>
+            </div>
+            <ul class="f">
+                <li>
+                    <div>
+                        <div class="f1">
+                            <div class="g1">
+                                <img src="../img/头像2.jpg" style="height: 130px;width: 130px">
+                            </div>
+                        </div>
+                        <div class="f2">
+                            <div class="g2">
+                                <span style="font-size: 40px;line-height: 70px">&nbsp;&nbsp;&nbsp;挚安 。</span>
+                            </div>
+                            <div class="g3">
+                                <span style="font-size: 40px;line-height: 70px">&nbsp;&nbsp;&nbsp;微信号：wxid_q7pvae7hldh22</span>
+                            </div>
+                        </div>
+                        <div class="f3">
+                            <div class="g4">
+                                <div class="g5">
+                                    <img src="../img/二维码.png" style=" height: 40px;width: 40px;padding: 5px">
+                                </div>
+                                <div class="g6">
+                                    <img src="../img/小于号.png" alt="" style="height: 40px;width: 40px;margin-left: 10px">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div style="background-color: #636666;margin-top: 0px;height: 23px"></div>
+    </div>
+
+    <div style="height:1058px;margin-top: 426px">
+    <ul class="b6">
+        <li>
+            <div class="b">
+                <div class="b1"><span class="iconfont b2" style="color: deepskyblue">&#xe6ae;</span></div>
+                <div class="b3">支付</div>
+                <div class="h1">
+                    <img src="../img/小于号.png" alt="" style="height: 30px;width: 30px;margin-left: 10px">
+                </div>
+            </div>
+        </li>
+        <div style="height: 20px"></div>
+        <li>
+            <div class="b">
+                    <div class="b1"><span class="iconfont b2" style="color: deepskyblue">&#xe637;</span></div>
+                    <div class="b3">收藏</div>
+                    <div class="h2">
+                    <img src="../img/小于号.png" alt="" style="height: 30px;width: 30px;margin-left: 10px">
+                    </div>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><span class="iconfont b2" style="color: deepskyblue">&#xe679;</span></div>
+                <div class="b3">相册</div>
+                <div class="h3">
+                    <img src="../img/小于号.png" alt="" style="height: 30px;width: 30px;margin-left: 10px">
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><span class="iconfont b2" style="color: deepskyblue">&#xe616;</span></div>
+                <div class="b3">卡包</div>
+                <div class="h4">
+                    <img src="../img/小于号.png" alt="" style="height: 30px;width: 30px;margin-left: 10px">
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><span class="iconfont b2" style="color: deepskyblue">&#xe615;</span></div>
+                <div class="b3">表情</div>
+                <div class="h5">
+                    <img src="../img/小于号.png" alt="" style="height: 30px;width: 30px;margin-left: 10px">
+                </div>
+            </div>
+        </li>
+        <div style="height: 20px;background-color: #636666;margin-left: -40px"></div>
+
+        <li>
+            <div class="b">
+                <div class="b1"><span class="iconfont b2" style="color: deepskyblue">&#xe676;</span></div>
+                <div class="b3">设置</div>
+                <div class="h6">
+                    <img src="../img/小于号.png" alt="" style="height: 30px;width: 30px;margin-left: 10px">
+                </div>
+            </div>
+        </li>
+    </ul>
+    </div>
+    <div class="manager">
+        <div  class="dia1">
+            <a href="weixinpenyou.html">
+                <span class="iconfont" style="color: black">&#xe62b;</span><br>
+                <span class="text1">
+                             <span style="color: black">微信</span>
+                         </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="weixinpenyou.html">
+                <span class="iconfont" style="color: black">&#xe62c;</span><br>
+                <span class="text1">
+                             <span  style="margin-left: -18px;color: black">通讯录</span>
+                    </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="微信发现.html">
+                <span class="iconfont" style="color: black">&#xe612;</span><br>
+                <span class="text1">
+                             <span style="margin-left: 4px;color: black">发现</span>
+                    </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="wo.html">
+                <span class="iconfont" style="color: black">&#xe626;</span><br>
+                <span class="text1">
+                             <span style="color: black">我的</span>
+                    </span>
+            </a>
+        </div>
+
+    </div>
+    <div style="clear: both"></div>
+</div>
+
+</body>
+</html>

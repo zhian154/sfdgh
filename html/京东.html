@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/iconfont.css" rel="stylesheet">
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #wrap{
+            width:1190px ;
+            height: 480px;
+            border: black solid 1px;
+            margin: auto;
+            /*水平居中*/
+        }
+        .data{
+            list-style: none;
+            border-bottom: #aaa 1px solid;
+            width: 190px;
+            float: left;
+        }
+        .data li{
+            /*
+              1单个选择器 ID class tag
+              2组合组合选择器
+              两个选择器  空格  父子选择器
+              组合选择器的优先级会比单个选择器的优先级高些
+
+              ，逗号隔开，相邻选择器
+              >只包含最近的 一层
+            */
+            height: 26px;
+            line-height: 26px;
+            padding-left: 10px;
+        }
+
+        .img{
+            width: 590px;
+            height: 470px;
+            border: black solid 1px;
+            float: left;
+            background-image: url('../img/主屏.gif');
+
+        }
+        #list{
+            list-style: none;
+            margin-top: 440px;
+        }
+        #list li{
+            height: 30px;
+            width: 30px;
+            background-color: red;
+            float: left;
+            border-radius: 15px;
+            line-height: 30px;
+            margin-lsft: 5px;
+        }
+        #wrap .imgs{
+            width: 190px;
+            height: 480px;
+            border: black 1px solid;
+            float: left;
+
+        }
+        #wrap .imgs div{
+            width: 190px;
+            height: 150px;
+            background-color: red;
+            margin-top: 5px;
+        }
+        #wrap .imgs div{
+            background-image: url('../img/download.jpg');
+        }
+        #wrap .des{
+            width: 190px;
+            height: 480px;
+            border: black solid 1px;
+            float: left;
+
+        }
+        #wrap .des .des-img{
+            width: 55px;
+            height: 55px;
+            background-image: url("../img/no_login.jpg");
+            border-radius: 50%;
+            margin-left: 70px;
+        }
+        .iconfont{
+            width: 42px;
+            height: 57px;
+
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <ul class="data">
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+
+    </ul>
+    <div class="img">
+        <ul id="list">
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+        </ul>
+    </div>
+
+<div class="imgs">
+    <div></div>
+    <div></div>
+    <div></div>
+
+</div>
+    <div class="des">
+        <div class="des-img"></div>
+        <span class="iconfont" style="height: 42px;height: 57px">&#xe641;</span>
+        <span class="iconfont">&#xe62e;</span>
+        <span class="iconfont">&#xe620;</span>
+        <span class="iconfont">&#xe680;</span>
+        <span class="iconfont">&#xe620;</span>
+        <span class="iconfont">&#xe63a;</span>
+        <span class="iconfont">&#xe605;</span>
+        <span class="iconfont">&#xe638;</span>
+        <span class="iconfont">&#xe615;</span>
+        <span class="iconfont">&#xe673;</span>
+        <span class="iconfont">&#xe623;</span>
+        <span class="iconfont">&#xe61a;</span>
+    </div>
+</div>
+
+</body>
+</html>

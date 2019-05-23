@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*css选择器  选择标签
+        id 选择器
+        class 选择器
+        标签选择器
+        选择器的优先级 tag<class<id
+        流式布局
+        背景、边框、字体、文本-----单框
+
+        */
+        #a1{
+            width: 100px;
+            height: 80px;
+            text-indent: 10px;
+            text-align: center;
+            /*overflow-wrap: break-spaces;*/
+            /*overflow: hidden;*/
+            /*text-overflow: ellipsis;*/
+
+            /*white-space: nowrap;*/
+            /*display: -webkit-box;*/
+            /*-webkit-box-clamp:3;*/
+            /*-webkit-box-orient:vertical ;*/
+
+            /*给一些文字加下划线*/
+            /*text-decoration: blueviolet;*/
+            /*text-decoration-line: underline;*/
+            /*text-decoration-style: dashed;*/
+           /*text-emphasis-color: red;*/
+            /*text-emphasis-style: cirele;*/
+            /*text-emphasis-position: left;*/
+            /*background-image: url("img/放飞梦想简谱.jpg");*/
+            background-repeat: repeat-x;
+            backgronud-size:500px,200px;
+            /*背景关联*/
+            /*background-attachment: fixed;*/
+            /*backgroung-position=l*/
+            /*background-color: blue;*/
+            /*opacity: 0.7;*/
+            /*透明度的相关操作，0-1*/
+            /*border-style: dashed;*/
+            /*border-color: red;*/
+            /*border-width: 1px;*/
+            /*复合样式*/
+            /*border: dashed red jpx;*/
+            border-style: solid dashed;
+            border-width: 5px;
+            border-color: red;
+            /*font-family: Impact;*/
+            /*font-size: 30px;*/
+            /*font-weight: 900;*/
+            /*font-style: italic;*/
+
+        }
+        .b1{
+            width: 100px;
+            height: 30px;
+            background-color: #ff00ff;
+        }
+        p{
+            width: 100px;
+            height: 30px;
+            background-color: #bb0044;
+        }
+        div{
+            width: 100px;
+            height: 30px;
+            background-color: #dd88ff;
+         }
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+<!--默认占满一行 空标签高度为0 可以设置宽高-->
+<!-- 一次定义  多次使用-->
+    <div id="a1"> 这是一个di vks dd dkn w   fhanm,z        </div>
+    <div class="b1" style="width: 500px;height: 100px"> 这是一个div</div><br>
+    <div class="b1"> 这是一个div</div>
+    <div class="b1"> 这是一个div</div>
+    <div > 这是一个div</div>
+   <p>alskdhwhd</p>
+    <span style="width: 100px;height: 50px;border: red"></span>
+<a href="http://www.beidu.com">baidu</a>
+
+</body>
+</html>

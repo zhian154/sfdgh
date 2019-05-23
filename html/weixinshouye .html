@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html body .iconfont{
+            font-size: 50px;
+        }
+        .top{
+            height: 55px;
+            background-color: #e4e4e4;
+            font-size: 30px;
+            line-height: 50px;
+        }
+        #wrap .top .time{
+            width: 200px;
+            float: left;
+        }
+        #wrap .top .icons{
+            width: 240px;
+            float: right;
+        }
+        #wrap .titles{
+            height: 105px;
+            /*border: black solid 1px;*/
+            background-color: #e4e4e4;
+        }
+        #wrap .titles .tit_content{
+            width: 100px;
+            /*width: 200px;*/
+            font-size: 50px;
+            line-height: 90px;
+            float: left;
+        }
+        #wrap .titles .iconss{
+            width: 120px;
+            float: right;
+            line-height: 90px;
+            margin-left: 521px;
+            background-color: #e4e4e4;
+        }
+        .a3{
+            width: 410px;
+            height: 482px;
+            /*background-color: #e4e4e4;*/
+            position: absolute;/*绝对定位*/
+            top: 160px;
+            left: 518px;
+            display: none;
+        }
+        #wrap .titles .iconss:hover .a3{
+            display: block;
+        }
+        #wrap .titles .iconss .a3 .b5{
+            width: 445px;
+            height: 460px;
+            background-color: #000000;
+            padding: 0;
+        }
+        #wrap .titles .iconss .a3 .b5 li{
+            height: 80px;
+            border-bottom: #aaaaaa 1px solid;
+            font-size: 50px;
+            margin-left: 80px;
+            color: white;
+            padding: 0px;
+            margin-top: 10px;
+        }
+        #wrap .titles .iconss .a3 .b5 li .h1{
+            height: 80px;
+            border-bottom: brown 1px solid;
+            /*margin-top: 10px;*/
+
+        }
+        #wrap .titles .iconss .a3 .b5 li .h1 .h2{
+            height: 60px;
+            border: black 1px solid;
+            float: left;
+        }
+        #wrap ul{
+            list-style: none;
+            height: 1400px;
+            overflow: scroll;
+        }
+        #wrap ul li{
+            height: 150px;
+            border: black solid 1px;
+        }
+        #wrap ul li .boxx{
+            display: flex;
+            height: 140px;
+            width: 980px;
+            border: solid 1px #fff;
+        }
+        #wrap ul li .boxx .imgs{
+            width: 150px;
+            height: 150px;
+            /*background-image: url("img-work/1.jpg");*/
+        }
+        #wrap ul li .boxx .imgs .imgss{
+            width: 90px;
+            height:90px;
+            border: solid 1px #fff;
+            margin: auto;
+            margin-top: 30px;
+            /*background-image: url("img-work/1.jpg");*/
+        }
+        #wrap ul li .boxx .textt{
+            width: 829px;
+            height: 150px;
+            border:solid 1px #fff;
+        }
+        #wrap ul li .boxx .textt .textt1{
+            width: 829px;
+            height:70px;
+            border:solid 1px #fff;
+            font-size: 40px;
+            display: table-cell;
+            vertical-align: bottom;
+        }
+        #wrap ul li .boxx .textt .textt2{
+            width: 400px;
+            height:70px;
+            border:solid 1px #fff;
+        }
+        .coent-text{
+            color: black;
+            opacity: 0.5;
+            font-size: 38px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            vertical-align: top;
+        }
+        #wrap .manager{
+            display: flex;
+            height: 200px;
+            border: solid 1px #fff;
+        }
+        #wrap .manager div{
+            flex: 1;
+            border: solid 1px #fff;
+        }
+        #wrap .manager .iconfont{
+            font-size: 100px;
+            margin-left: 50px;
+        }
+        #wrap .manager .text1{
+            /*text-align: center;*/
+            font-size: 50px;
+            margin-left: 50px;
+        }
+        a{
+            text-decoration:none;
+        }
+
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div class="top">
+        <div class="time">15：37</div>
+        <div class="icons">
+            <span class="iconfont">&#xeb07;</span>
+            <span class="iconfont">&#xeb07;</span>
+             <span class="iconfont">&#xe61e;</span>
+            <span class="iconfont">&#xe695;</span>
+        </div>
+    </div>
+    <div class="titles">
+        <div class="tit_content">微信</div>
+        <div class="iconss">
+            <span class="iconfont">&#xe62d;</span><!--&nbsp;-->
+            <span class="iconfont">&#xe620;</span>
+            </span>
+            <div class="a3">
+                <ul class="b5">
+                    <li>
+                        <div class="h1">
+                            <div class="h2">
+                                <img src="../img/信息.png" style="height: 60px;width: 60px">
+                            </div>
+                            <div>
+                                &nbsp;&nbsp;&nbsp;<span>发起群聊</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="h1">
+                            <div class="h2">
+                                <img src="../img/我.png" style="height: 60px;width: 60px">
+                            </div>
+                            <div>
+                                &nbsp;&nbsp;&nbsp;<span>添加朋友</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="h1">
+                            <div class="h2">
+                                <img src="../img/扫码.png" style="height: 60px;width: 60px">
+                            </div>
+                            <div>
+                                &nbsp;&nbsp;&nbsp;<span>扫一扫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="h1">
+                            <div class="h2">
+                                <img src="../img/收付款.png" style="height: 60px;width: 60px">
+                            </div>
+                            <div>
+                                &nbsp;&nbsp;&nbsp;<span>收付款</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="h1">
+                            <div class="h2">
+                                <img src="../img/帮助与反馈.png" style="height: 60px;width: 60px">
+                            </div>
+                            <div>
+                                &nbsp;&nbsp;&nbsp;<span>帮助与反馈</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <ul>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss">
+                        <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                        <img src="../img/laodong17.png" width="90px"height="90px">
+                    </div>
+                </div>
+                <div class="textt">
+                    <div class="textt1"><span>劳动关系17软件大帝国</span></div>
+                    <div class="textt2"><div class="coent-text">李:本次调查请各位同学认真对待，并且与12:00前提交，谢谢。</div></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss">
+                        <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                        <img src="../img/dadiguo.png" width="90px"height="90px">
+                    </div>
+                </div>
+                <div class="textt">
+                    <div class="textt1"><span>劳动关系17软件</span></div>
+                    <div class="textt2"><div class="coent-text">何飞鹏：【小程序】我在微信支付抢火车票，急需你的帮助</div></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss">
+                        <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                        <img src="../img/微信支付.png" width="90px"height="90px" >
+                    </div>
+                </div>
+                <div class="textt">
+                    <div class="textt1"><span>微信支付</span></div>
+                    <div class="textt2"><div class="coent-text">微信支付凭证</div></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss">
+                        <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                        <img src="../img/1.jpg" width="90px"height="90px">
+                    </div>
+                </div>
+                <div class="textt">
+                    <div class="textt1"><span>卜佳欢</span></div>
+                    <div class="textt2"><div class="coent-text">[图片]</div></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss">
+                        <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                        <img src="../img/2.jpg" width="90px"height="90px">
+                    </div>
+                </div>
+                <div class="textt">
+                    <div class="textt1"><span>杨磊</span></div>
+                    <div class="textt2"><div class="coent-text">[语音通话]</div></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss">
+                        <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                        <img src="../img/miao.jpg" width="90px"height="90px">
+                    </div>
+                </div>
+                <div class="textt">
+                    <div class="textt1"><span>喵了个咪</span></div>
+                    <div class="textt2"><div class="coent-text">是滴</div></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss">
+                        <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                        <img src="../img/3.jpg" width="90px"height="90px">
+                    </div>
+                </div>
+                <div class="textt">
+                    <div class="textt1"><span>中邮速易递</span></div>
+                    <div class="textt2"><div class="coent-text">快递箱取件成功通知</div></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss">
+                        <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                        <img src="../img/4.jpg" width="90px"height="90px">
+                    </div>
+                </div>
+                <div class="textt">
+                    <div class="textt1"><span>刘冲</span></div>
+                    <div class="textt2"><div class="coent-text">[图片]</div></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss">
+                        <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                        <img src="../img/4.jpg" width="90px"height="90px">
+                    </div>
+                </div>
+                <div class="textt">
+                    <div class="textt1"><span>火元顺</span></div>
+                    <div class="textt2"><div class="coent-text">406</div></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss">
+                        <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                        <img src="../img/5.jpg" width="90px"height="90px">
+                    </div>
+                </div>
+                <div class="textt">
+                    <div class="textt1"><span>一心一意</span></div>
+                    <div class="textt2"><div class="coent-text">[转账]朋友已确认收钱</div></div>
+                </div>
+            </div>
+        </li>
+
+    </ul>
+    <div class="manager">
+        <div  class="dia1">
+            <a href="weixinshouye%20.html">
+                <span class="iconfont" style="color: black">&#xe62b;</span><br>
+                <span class="text1">
+                             <span style="color: black">微信</span>
+                         </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="weixinpenyou.html">
+                <span class="iconfont" style="color: black">&#xe62c;</span><br>
+                <span class="text1">
+                             <span  style="margin-left: -18px;color: black">通讯录</span>
+                    </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="微信发现.html">
+                <span class="iconfont" style="color: black">&#xe612;</span><br>
+                <span class="text1">
+                             <span style="margin-left: 4px;color: black">发现</span>
+                    </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="wo.html">
+                <span class="iconfont" style="color: black">&#xe626;</span><br>
+                <span class="text1">
+                             <span style="color: black">我的</span>
+                    </span>
+            </a>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+
+
+
